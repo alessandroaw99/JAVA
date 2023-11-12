@@ -8,7 +8,7 @@ import java.security.NoSuchAlgorithmException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-// ... (existing imports)
+
 
 public class PasswordSafeGUI extends JFrame {
     private static final int MAX_LOGIN_ATTEMPTS = 5;
@@ -223,8 +223,7 @@ public class PasswordSafeGUI extends JFrame {
     }
     
     private String[] getSecurityQuestions(String username) {
-        // Replace this with your logic to retrieve security questions for the given username
-        // Example: return a predefined set of questions for demonstration purposes
+        // need to put something here
     
         // Check if the username exists in the securityQuestionsDatabase
         if (securityQuestionsDatabase.containsKey(username)) {
